@@ -532,6 +532,9 @@
 	padding-left: 15px;
 	padding-right: 15px;
 }
+.big-image .right .more a:hover{
+	color: #f7c116;
+}
 .big-image .right .book-btn{
 	margin-top: 50px;
 	margin-bottom: 30px;
@@ -595,9 +598,7 @@
 	font-weight: bold;
 }
 .service .list{
-	display: box;
-	display: flex;
-	flex-wrap: wrap;
+	/*display: table;*/
 }
 .service .list .itemBox{
 	border: 10px solid transparent;
@@ -649,6 +650,10 @@
 	margin-top: 30px;
 	margin-left: 5px;
 	margin-right: 5px;
+	overflow-y: scroll;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
 }
 .service .list .itemBox .item .criteria{
 	margin-top: 20px;
@@ -690,6 +695,7 @@
 }
 .service .list .itemBox .item .more:hover a{
 	color: blue;
+	font-weight: bold;
 }
 
 
