@@ -600,6 +600,9 @@
 .service .list{
 	/*display: table;*/
 }
+/*TEST EQUAL HEIGHT COLUMNS*/
+
+/*TEST EQUAL HEIGHT COLUMNS*/
 .service .list .itemBox{
 	border: 10px solid transparent;
 	width: 100%;
