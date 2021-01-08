@@ -49,12 +49,14 @@
 	margin-left: 5px;
 	position: relative;
 }
-.header ul li>a{
+.header ul li .title{
 	text-decoration: none;
 	text-transform: uppercase;
 	color: white;
 	font-weight: bold;
 	font-size: 12px;
+	height: 135px;
+	line-height: 135px;
 }
 .header ul li:hover .title{
 	color: #f7c116;
@@ -79,6 +81,9 @@
 		opacity: 0;
 		pointer-events: none;
 	}
+	99%{
+		pointer-events: none;
+	}
 	100%{
 		top: 80%;
 		opacity: 1;
@@ -89,6 +94,9 @@
 	100%{
 		top: 150%;
 		opacity: 0;
+		pointer-events: none;
+	}
+	1%{
 		pointer-events: none;
 	}
 	0%{
@@ -601,11 +609,9 @@
 	font-weight: bold;
 }
 .service .list{
-	/*display: table;*/
+	display: flex;
+	justify-content: space-around;
 }
-/*TEST EQUAL HEIGHT COLUMNS*/
-
-/*TEST EQUAL HEIGHT COLUMNS*/
 .service .list .itemBox{
 	border: 10px solid transparent;
 	width: 100%;
@@ -613,7 +619,6 @@
 	position: relative;
 	margin-top: 100px;
 	height: 100%;
-	/*display: table-cell;*/
 }
 .service .list .itemBox .item-img{
 	position: absolute;
