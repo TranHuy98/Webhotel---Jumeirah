@@ -56,7 +56,7 @@
 	font-weight: bold;
 	font-size: 12px;
 }
-.header ul li>a:hover{
+.header ul li:hover .title{
 	color: #f7c116;
 }
 .header ul li .active{
@@ -109,6 +109,9 @@
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 14px;
+}
+.header ul li .drop-menu .item:hover a{
+	color: #f7c116;
 }
 /*end header*/
 

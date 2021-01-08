@@ -1,10 +1,10 @@
 //drop menu header
 $(document).ready(function(){
-	$('.header li .title').mouseenter(function(){
-		$(this).parent().find('.drop-menu').css('animation-name','dropShow');
+	$('.header li').mouseenter(function(){
+		$(this).find('.drop-menu').css('animation-name','dropShow');
 	});
-	$('.header li .title').mouseleave(function(){
-		$(this).parent().find('.drop-menu').css('animation-name','dropHide');
+	$('.header li').mouseleave(function(){
+		$(this).find('.drop-menu').css('animation-name','dropHide');
 	});
 })
 
