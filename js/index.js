@@ -66,7 +66,16 @@ $(document).ready(function(){
     arrows: false,
     dots: true,
     slidesToShow: 2,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        }
+      }
+    ]
   });
 })
 
